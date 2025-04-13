@@ -1,0 +1,88 @@
+.product-card {
+    font-family: 'Courier New', Courier, monospace;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.3s;
+    height: 100%;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image-gallery {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.image-gallery img.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    background-color: #fff;
+}
+
+.info {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.info p {
+    margin: 0 0 6px;
+    font-size: 14px;
+    color: #444;
+}
+
+.btn-view {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.share-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: auto;
+}
+
+button {
+    padding: 6px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.btn-whatsapp {
+    background-color: #25D366;
+    color: white;
+}
+
+.btn-telegram {
+    background-color: #0088cc;
+    color: white;
+}
+
